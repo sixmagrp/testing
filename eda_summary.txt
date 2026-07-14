@@ -1,0 +1,146 @@
+TRAIN: (84396, 3), 2023-01-01 06:00:00 -> 2025-09-18 18:00:00
+TEST : (21780, 3), 2025-09-19 06:00:00 -> 2026-05-18 18:00:00
+Stasiun train=30, test=30, sama=True
+NaN target: 0
+Duplikat (datetime,pos): 0
+
+=== Per stasiun (urut std desc — stasiun atas MENDOMINASI RMSE) ===
+                              n     mean    std      min      max               first                last  coverage_pct    range
+nama_pos                                                                                                                        
+Bojonegoro - Kali Kethek   2688    9.055  5.718    0.000  225.130 2023-01-01 06:00:00 2025-09-18 18:00:00          90.3  225.130
+Napel                      2901   34.211  5.692   30.890  325.830 2023-01-01 06:00:00 2025-09-18 18:00:00          97.5  294.940
+Karangnongko               2901   22.687  5.020   19.805  177.000 2023-01-01 06:00:00 2025-09-18 18:00:00          97.5  157.195
+Kali Anyar - Kreteg Abang  2901   86.461  4.464   84.444  323.207 2023-01-01 06:00:00 2025-09-18 18:00:00          97.5  238.763
+Jarum                      2864   90.721  3.918   89.290  250.140 2023-01-01 06:00:00 2025-09-18 18:00:00          96.2  160.850
+Wonogiri Dam               2901  132.340  3.300  125.540  137.357 2023-01-01 06:00:00 2025-09-18 18:00:00          97.5   11.818
+Kedungupit                 2901   64.865  3.082   62.128  207.736 2023-01-01 06:00:00 2025-09-18 18:00:00          97.5  145.609
+Kajangan                   2901   51.044  2.609   49.176  172.770 2023-01-01 06:00:00 2025-09-18 18:00:00          97.5  123.594
+Peren                      2902   91.305  2.016   90.108  170.100 2023-01-01 06:00:00 2025-09-18 18:00:00          97.5   79.992
+Kali Pepe - PTPN           2901   82.547  2.003    0.000  138.070 2023-01-01 06:00:00 2025-09-18 18:00:00          97.5  138.070
+Jurug                      2903   78.817  1.944    0.000   86.460 2023-01-01 06:00:00 2025-09-18 18:00:00          97.5   86.460
+Ketonggo                   2901   37.478  1.873   -0.060   44.790 2023-01-01 06:00:00 2025-09-18 18:00:00          97.5   44.850
+Cepu                       2893   17.534  1.443   15.745   23.670 2023-01-01 06:00:00 2025-09-18 18:00:00          97.2    7.925
+Floodway Bridge C          2377    3.874  1.380    2.040   47.000 2023-01-01 06:00:00 2025-09-18 18:00:00          79.9   44.960
+Bengkelolor                2901    9.814  1.377    7.589   13.523 2023-01-01 06:00:00 2025-09-18 18:00:00          97.5    5.934
+Sumberrejo                 2878    7.452  1.339    4.956   12.583 2023-01-01 06:00:00 2025-09-18 18:00:00          96.7    7.627
+Boboh Kali Lamong          2902    4.107  1.290    2.100    7.600 2023-01-01 06:00:00 2025-09-18 18:00:00          97.5    5.500
+Colo Weir                  2903  107.790  1.119  102.186  109.700 2023-01-01 06:00:00 2025-09-18 18:00:00          97.5    7.514
+Karanggeneng               2903    2.166  0.972    0.000    5.134 2023-01-01 06:00:00 2025-09-18 18:00:00          97.5    5.134
+Brangkal                   2901   12.950  0.919   11.687   19.035 2023-01-01 06:00:00 2025-09-18 18:00:00          97.5    7.348
+Babat                      2838    6.306  0.770    4.410    9.660 2023-01-01 06:00:00 2025-09-18 18:00:00          95.4    5.250
+Serenan                    2901   86.322  0.705   85.470   90.980 2023-01-01 06:00:00 2025-09-18 18:00:00          97.5    5.510
+Gunungsari                 1126   10.038  0.677    9.017   13.700 2024-08-13 18:00:00 2025-09-18 18:00:00          37.8    4.683
+Sekayu                     2901   87.273  0.659   86.607   92.320 2023-01-01 06:00:00 2025-09-18 18:00:00          97.5    5.713
+Arjowinangun - Pacitan     2903    1.116  0.494    0.348    4.850 2023-01-01 06:00:00 2025-09-18 18:00:00          97.5    4.502
+Kali Pepe - Tugu Boto      2900   94.821  0.448   94.351  100.420 2023-01-01 06:00:00 2025-09-18 18:00:00          97.4    6.069
+Ngadipiro                  2901  143.563  0.335  143.178  146.310 2023-01-01 06:00:00 2025-09-18 18:00:00          97.5    3.132
+Badegan                    2901  122.402  0.310  121.902  123.960 2023-01-01 06:00:00 2025-09-18 18:00:00          97.5    2.058
+Ngrembang                  2901  140.051  0.287  139.850  143.790 2023-01-01 06:00:00 2025-09-18 18:00:00          97.5    3.940
+Lorog                      2901   12.860  0.208   12.400   14.750 2023-01-01 06:00:00 2025-09-18 18:00:00          97.5    2.350
+
+>>> Fokus effort ke stasiun dengan std terbesar:
+Bojonegoro - Kali Kethek, Napel, Karangnongko, Kali Anyar - Kreteg Abang, Jarum, Wonogiri Dam, Kedungupit, Kajangan
+
+=== Gap > 3 hari per stasiun ===
+Arjowinangun - Pacitan: 1 gap, terbesar 24 days 18:00:00
+Babat: 3 gap, terbesar 25 days 12:00:00
+Badegan: 1 gap, terbesar 25 days 12:00:00
+Bengkelolor: 1 gap, terbesar 25 days 12:00:00
+Boboh Kali Lamong: 1 gap, terbesar 25 days 00:00:00
+Bojonegoro - Kali Kethek: 3 gap, terbesar 34 days 00:00:00
+Brangkal: 1 gap, terbesar 25 days 12:00:00
+Cepu: 1 gap, terbesar 25 days 12:00:00
+Colo Weir: 2 gap, terbesar 20 days 12:00:00
+Floodway Bridge C: 3 gap, terbesar 163 days 00:00:00
+Gunungsari: 1 gap, terbesar 25 days 12:00:00
+Jarum: 2 gap, terbesar 25 days 12:00:00
+Jurug: 1 gap, terbesar 24 days 12:00:00
+Kajangan: 1 gap, terbesar 25 days 12:00:00
+Kali Anyar - Kreteg Abang: 1 gap, terbesar 25 days 12:00:00
+Kali Pepe - PTPN: 1 gap, terbesar 25 days 12:00:00
+Kali Pepe - Tugu Boto: 1 gap, terbesar 25 days 12:00:00
+Karanggeneng: 1 gap, terbesar 20 days 00:00:00
+Karangnongko: 1 gap, terbesar 25 days 12:00:00
+Kedungupit: 1 gap, terbesar 25 days 12:00:00
+Ketonggo: 1 gap, terbesar 25 days 12:00:00
+Lorog: 1 gap, terbesar 25 days 12:00:00
+Napel: 1 gap, terbesar 25 days 12:00:00
+Ngadipiro: 1 gap, terbesar 25 days 12:00:00
+Ngrembang: 1 gap, terbesar 25 days 12:00:00
+Peren: 2 gap, terbesar 18 days 18:00:00
+Sekayu: 1 gap, terbesar 25 days 12:00:00
+Serenan: 1 gap, terbesar 25 days 12:00:00
+Sumberrejo: 2 gap, terbesar 25 days 12:00:00
+Wonogiri Dam: 1 gap, terbesar 25 days 12:00:00
+
+=== Mean per tahun (deteksi drift) ===
+y                            2023    2024    2025
+nama_pos                                         
+Arjowinangun - Pacitan       0.90    1.23    1.27
+Babat                        6.15    6.32    6.52
+Badegan                    122.43  122.39  122.37
+Bengkelolor                  9.70    9.60   10.32
+Boboh Kali Lamong            3.92    3.82    4.83
+Bojonegoro - Kali Kethek     9.16    8.73    9.44
+Brangkal                    12.90   12.75   13.34
+Cepu                        17.26   17.50   18.01
+Colo Weir                  107.53  107.76  108.22
+Floodway Bridge C            4.10    3.62    4.02
+Gunungsari                    NaN    9.91   10.11
+Jarum                       90.87   90.58   90.72
+Jurug                       78.74   78.72   79.09
+Kajangan                    50.96   50.94   51.33
+Kali Anyar - Kreteg Abang   87.21   85.96   86.08
+Kali Pepe - PTPN            82.52   82.56   82.57
+Kali Pepe - Tugu Boto       94.82   94.73   94.96
+Karanggeneng                 2.03    2.09    2.48
+Karangnongko                22.60   22.54   23.05
+Kedungupit                  65.06   64.42   65.25
+Ketonggo                    37.19   37.42   38.01
+Lorog                       12.81   12.83   12.99
+Napel                       34.11   34.06   34.60
+Ngadipiro                  143.55  143.55  143.61
+Ngrembang                  140.07  140.03  140.06
+Peren                       91.36   91.20   91.38
+Sekayu                      87.20   87.21   87.49
+Serenan                     86.27   86.18   86.62
+Sumberrejo                   7.26    7.42    7.82
+Wonogiri Dam               131.99  131.20  134.64
+
+=== RMSE validasi climatology (val 2025-01-19 -> 2025-09-18): 1.3961 ===
+Ini angka pembanding — model ML harus lebih kecil dari ini.
+
+=== RMSE climatology per stasiun (validasi) ===
+nama_pos
+Jurug                        3.366
+Peren                        3.116
+Bojonegoro - Kali Kethek     2.180
+Floodway Bridge C            2.153
+Boboh Kali Lamong            1.671
+Ketonggo                     1.659
+Napel                        1.630
+Wonogiri Dam                 1.571
+Karangnongko                 1.520
+Cepu                         1.462
+Kedungupit                   1.412
+Bengkelolor                  1.301
+Sumberrejo                   1.295
+Kajangan                     1.158
+Brangkal                     1.026
+Karanggeneng                 0.917
+Gunungsari                   0.884
+Babat                        0.853
+Kali Anyar - Kreteg Abang    0.837
+Serenan                      0.755
+Sekayu                       0.661
+Jarum                        0.559
+Arjowinangun - Pacitan       0.486
+Kali Pepe - Tugu Boto        0.436
+Badegan                      0.272
+Colo Weir                    0.256
+Kali Pepe - PTPN             0.253
+Lorog                        0.251
+Ngadipiro                    0.250
+Ngrembang                    0.212
+
+Saved submission_climatology.csv (21780 rows)
